@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   
   s.source_files = 'MZFayeClient/*.{h,m}'
   
-  s.dependency 'SocketRocket', '~> 0.3.1-beta2'
+  s.dependency 'SocketRocket', '~> 0.4'
   s.dependency 'Base64', '~> 1.0.1'
   
   s.platform     = :ios, '6.0'
